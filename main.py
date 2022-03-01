@@ -13,6 +13,8 @@ bot = commands.Bot(command_prefix="m!", intents=nextcord.Intents.all())
 
 owner = config("OWNER")  # User ID of the bot owner
 
+## Boilerplate here
+
 def loadExtensions(exts: list = None):
     if not exts:
         for i in os.listdir("./cogs"):

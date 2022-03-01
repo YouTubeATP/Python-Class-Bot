@@ -1,0 +1,18 @@
+[project]
+[tool]
+[tool.poetry]
+name = "Python-Class-Bot"
+version = "0.1.0"
+description = "Discord bot for Python Class"
+authors = [
+    "YouTubeATP <46191535+YouTubeATP@users.noreply.github.com>"
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/YouTubeATP/Python-Class-Bot"
+repository = "https://github.com/YouTubeATP/Python-Class-Bot"
+documentation = "https://github.com/YouTubeATP/Python-Class-Bot"
+[tool.poetry.dependencies]
+nextcord = "^2.0.0a8"
+python = "^3.8"
+python-decouple = "^3.6"
